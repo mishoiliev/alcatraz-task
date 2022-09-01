@@ -14,6 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm run server`
+
+Runs the server in the development mode.\
+Needs to be running to use website.
+Open [http://localhost:3030](http://localhost:3030) to view it in your browser.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
@@ -68,3 +74,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Comments on the project and what could be done better
+
+Initially, the position was introduced to me as not requiring any backend knowledge. This being said, I cannot lie, I had some struggles initially figuring out how to set everything up. That took quite a bit of tham, that could have been spent better otherwise. Creating infinite depth comments also was a challenge, mostly in figuring out how it should work and I am curtain, there is a better solution. I am not even sure if that was necessary of me to do, but it was interesing nontheless. I had some problems with making comments be grouped and expanded onclick, that's why I created a button to disable that (left it there because I didn't want it all going to waste). 
+
+Had quite a lot of problems with testing as well. Took me a long time to figure how to properly mock the hook and the api inside it. Still it's not working properly, or at least it's not running very good tests.
+
+Coulnd't spend as much time on design as I would have wanted, because of all the issues I have had, but hopefully it will suffice.
+
+That being said, I hope that I have done well enough job to advance further in the interviewing proccess, since this position and your company feel like a great possibility for myself.
+
