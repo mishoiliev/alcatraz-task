@@ -83,5 +83,5 @@ Had quite a lot of problems with testing as well. Took me a long time to figure 
 
 Coulnd't spend as much time on design as I would have wanted, because of all the issues I have had, but hopefully it will suffice.
 
-That being said, I hope that I have done well enough job to advance further in the interviewing proccess, since this position and your company feel like a great possibility for myself.
+That being said, I hope that I have done well enough job to advance further in the interviewing proccess, since this position and your company feel like a great opportunity for myself.
 
