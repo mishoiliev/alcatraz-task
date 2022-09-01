@@ -1667,6 +1667,13 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@koa/cors@^3.4.1":
+  "integrity" "sha512-/sG9NlpGZ/aBpnRamIlGs+wX+C/IJ5DodNK7iPQIVCG4eUQdGeshGhWQ6JCi7tpnD9sCtFXcS04iTimuaJfh4Q=="
+  "resolved" "https://registry.npmjs.org/@koa/cors/-/cors-3.4.1.tgz"
+  "version" "3.4.1"
+  dependencies:
+    "vary" "^1.1.2"
+
 "@koa/router@^12.0.0":
   "integrity" "sha512-cnnxeKHXlt7XARJptflGURdJaO+ITpNkOHmQu7NHmCoRinPbyvFzce/EG/E8Zy81yQ1W9MoSdtklc3nyaDReUw=="
   "resolved" "https://registry.npmjs.org/@koa/router/-/router-12.0.0.tgz"
@@ -3721,6 +3728,16 @@
   dependencies:
     "mkdirp-infer-owner" "^2.0.0"
 
+"co-body@^6.0.0":
+  "integrity" "sha512-m7pOT6CdLN7FuXUcpuz/8lfQ/L77x8SchHCF4G0RBTJO20Wzmhn5Sp4/5WsKy8OSpifBSUrmg83qEqaDHdyFuQ=="
+  "resolved" "https://registry.npmjs.org/co-body/-/co-body-6.1.0.tgz"
+  "version" "6.1.0"
+  dependencies:
+    "inflation" "^2.0.0"
+    "qs" "^6.5.2"
+    "raw-body" "^2.3.3"
+    "type-is" "^1.6.16"
+
 "co@^4.6.0":
   "integrity" "sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ=="
   "resolved" "https://registry.npmjs.org/co/-/co-4.6.0.tgz"
@@ -3902,6 +3919,11 @@
   dependencies:
     "depd" "~2.0.0"
     "keygrip" "~1.1.0"
+
+"copy-to@^2.0.1":
+  "integrity" "sha512-3DdaFaU/Zf1AnpLiFDeNCD4TOWe3Zl2RZaTzUvWiIk5ERzcCodOE20Vqq4fzCbNoHURFHT4/us/Lfq+S2zyY4w=="
+  "resolved" "https://registry.npmjs.org/copy-to/-/copy-to-2.0.1.tgz"
+  "version" "2.0.1"
 
 "core-js-compat@^3.21.0", "core-js-compat@^3.22.1":
   "integrity" "sha512-extKQM0g8/3GjFx9US12FAgx8KJawB7RCQ5y8ipYLbmfzEzmFRWdDjIlxDx82g7ygcNG85qMVUSRyABouELdow=="
@@ -5823,6 +5845,11 @@
 "infer-owner@^1.0.4":
   "version" "1.0.4"
 
+"inflation@^2.0.0":
+  "integrity" "sha512-m3xv4hJYR2oXw4o4Y5l6P5P16WYmazYof+el6Al3f+YlggGj6qT9kImBAnzDelRALnP5d3h4jGBPKzYCizjZZw=="
+  "resolved" "https://registry.npmjs.org/inflation/-/inflation-2.0.0.tgz"
+  "version" "2.0.0"
+
 "inflight@^1.0.4":
   "integrity" "sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA=="
   "resolved" "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz"
@@ -6824,6 +6851,14 @@
   "integrity" "sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ=="
   "resolved" "https://registry.npmjs.org/klona/-/klona-2.0.5.tgz"
   "version" "2.0.5"
+
+"koa-bodyparser@^4.3.0":
+  "integrity" "sha512-uyV8G29KAGwZc4q/0WUAjH+Tsmuv9ImfBUF2oZVyZtaeo0husInagyn/JH85xMSxM0hEk/mbCII5ubLDuqW/Rw=="
+  "resolved" "https://registry.npmjs.org/koa-bodyparser/-/koa-bodyparser-4.3.0.tgz"
+  "version" "4.3.0"
+  dependencies:
+    "co-body" "^6.0.0"
+    "copy-to" "^2.0.1"
 
 "koa-compose@^4.1.0":
   "integrity" "sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw=="
@@ -8683,7 +8718,7 @@
 "qrcode-terminal@^0.12.0":
   "version" "0.12.0"
 
-"qs@6.10.3":
+"qs@^6.5.2", "qs@6.10.3":
   "integrity" "sha512-wr7M2E0OFRfIfJZjKGieI8lBKb7fRCH4Fv5KNPEs7gJ8jadvotdsS08PzOKR7opXhZ/Xkjtt3WF9g38drmyRqQ=="
   "resolved" "https://registry.npmjs.org/qs/-/qs-6.10.3.tgz"
   "version" "6.10.3"
@@ -8724,7 +8759,7 @@
   "resolved" "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz"
   "version" "1.2.1"
 
-"raw-body@2.5.1":
+"raw-body@^2.3.3", "raw-body@2.5.1":
   "integrity" "sha512-qqJBtEyVgS0ZmPGdCFPWJ3FreoqvG4MVQln/kCgF7Olq95IbOp0/BWyMwbdtn4VTvkM8Y7khCQ2Xgk/tcrCXig=="
   "resolved" "https://registry.npmjs.org/raw-body/-/raw-body-2.5.1.tgz"
   "version" "2.5.1"
